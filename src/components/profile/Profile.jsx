@@ -7,78 +7,80 @@ import { dataList } from '../../data'
 
 const  Profile=( )=>{
     const params=useParams()
-    const profile = dataList.find(player=> player.id===params.profileId)
-    console.log(params.profileId);
-    console.log(dataList[0].id);
+
+    var integer1 = parseInt(params.profileId, 10);
+    const profile = dataList.find(player=> parseInt(player.id,10)===integer1)
+    console.log(profile);
+
         return (
-            // <div className='p'>
-            //     <div className='p-top'>
-            //         <p className='home'>Home</p>
-            //         <p className='help'>Help</p>
-            //     </div>
-            //     <div className='p-down'>
-            //         <div className='p-down-left'>
-            //             <p className='player-name'>{name}</p>
-            //             <img src={messi} alt='' className='player-img'></img>
-            //             <div className='performance'>
-            //                 <img src={messiP} alt='' className='perf'></img>
-            //             </div>
-            //         </div>
-            //         <div className='line'></div>
-            //         <div className='p-down-right'>
-            //             <div className='top-green'>
-            //                 <p className='overall'>Overall : {overall}</p>
-            //                 <p className='jersey'>Jersey : {jersey}</p>
-    
-                           
-            //                 <ul class="list" >
-            //                     <li ><strong>Age</strong> {age}
-            //                     </li>
-            //                     <li class="item-508"><strong>Nationality</strong>  {nationality}
-            //                     </li>
-            //                     <li class="item-509"><strong>Club</strong>  {club}
-            //                     </li>
-            //                     <li class="item-510">Value  {value}
-            //                     </li>
-            //                     <li class="item-511">Wage  {wage}
-            //                     </li>
-            //                     <li class="item-512">Foot  {foot}
-            //                     </li>
-            //                     <li class="item-513">Workrate  {workrate}
-            //                     </li>
-            //                     <li class="item-514">Position  {position}
-            //                     </li>
-            //                     <li class="item-515">Joined  {joined}
-            //                     </li>
-            //                     <li class="item-516">Contact  {contact}
-            //                     </li>
-            //                     <li class="item-517">Height {height}
-            //                     </li>
-            //                     <li class="item-518">Weight  {weight}
-            //                     </li>
-            //                     <li class="item-519">Crossing {crossing}
-            //                     </li>
-            //                     <li class="item-520">Accuracy {accuracy}
-            //                     </li>
-            //                     <li class="item-521">Short Passing {shortPassing}
-            //                     </li>
-            //                     <li class="item-522">Volleys {volleys}
-            //                     </li>
-            //                     <li class="item-523">Finishing {finishing}
-            //                     </li>
-            //                 </ul>
-    
-    
-    
-            //             </div>
-            //         </div>
-            //     </div>
-    
-            // </div >
-            <h1>ndweidn</h1>
+             <div className='p'>
+                 <div className='p-top'>
+                     <p className='home'>Home</p>
+                     <p className='help'>Help</p>
+                 </div>
+                 <div className='p-down'>
+                     <div className='p-down-left'>
+                         <p className='player-name'>{profile.name}</p>
+                         <img src={profile.img} alt='' className='player-img'></img>
+                         <div className='performance'>
+                             <img src={messiP} alt='' className='perf'></img>
+                         </div>
+                     </div>
+                     <div className='line'></div>
+                     <div className='p-down-right'>
+                         <div className='top-green'>
+                             <p className='overall'>Overall : {profile.overall}</p>
+                             <p className='jersey'>Jersey : {profile.jersey}</p>
+
+
+                             <ul class="list" >
+                                 <li ><strong>Age</strong> {profile.age}
+                                 </li>
+                                 <li class="item-508"><strong>Nationality</strong>  {profile.nationality}
+                                 </li>
+                                 <li class="item-509"><strong>Club</strong>  {profile.club}
+                                 </li>
+                                 <li class="item-510">Value  {profile.value}
+                                 </li>
+                                 <li class="item-511">Wage  {profile.wage}
+                                 </li>
+                                 <li class="item-512">Foot  {profile.foot}
+                                 </li>
+                                 <li class="item-513">Workrate  {profile.workrate}
+                                 </li>
+                                 <li class="item-514">Position  {profile.position}
+                                 </li>
+                                 <li class="item-515">Joined  {profile.joined}
+                                 </li>
+                                 <li class="item-516">Contact  {profile.contact}
+                                 </li>
+                                 <li class="item-517">Height {profile.height}
+                                 </li>
+                                 <li class="item-518">Weight  {profile.weight}
+                                 </li>
+                                 <li class="item-519">Crossing {profile.crossing}
+                                 </li>
+                                 <li class="item-520">Accuracy {profile.accuracy}
+                                 </li>
+                                 <li class="item-521">Short Passing {profile.shortPassing}
+                                 </li>
+                                 <li class="item-522">Volleys {profile.volleys}
+                                 </li>
+                                 <li class="item-523">Finishing {profile.finishing}
+                                 </li>
+                             </ul>
+
+
+
+                         </div>
+                     </div>
+                 </div>
+
+             </div >
+
         )
 
     }
-    
+
 
 export default Profile
