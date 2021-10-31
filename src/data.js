@@ -1,7 +1,7 @@
 export const dataList =[{
     id:1,
     img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWK_Pz64mX0CrnlzUC6tQiS1qfRoG3jd0gg&usqp=CAU",
-    radar:"",
+    radar:"https://i0.wp.com/statsbomb.com/wp-content/uploads/2014/01/Messi2013_NPG.jpg",
     name:'Lionel Messi',
     age:'32',
     nationality:'Argentina',
@@ -27,7 +27,7 @@ export const dataList =[{
 {
     id:2,
     img:"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec593cc431fb70007482137%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1321%26cropX2%3D3300%26cropY1%3D114%26cropY2%3D2093",
-    radar:"",
+    radar:"https://i2.wp.com/statsbomb.com/wp-content/uploads/2014/01/Ronaldo_1213_NPG.jpg",
     name:'Cristiano Ronaldo',
     age:'33',
     nationality:'Portugal',
@@ -54,7 +54,7 @@ export const dataList =[{
 {
     id:3,
     img:"https://www.reuters.com/resizer/NAc5QWG-asmWpBKV-aQay9v7yr4=/1641x1641/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/OO2LGS5XQZIKPCZ6QXMB56F43A.jpg",
-    radar:"",
+    radar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLCL-Ope9SbO7BLiLAy8ZW6UyC2Kp5SqEl2YXxughGbCzrzIhh1AIKCqNe8AxkEAGATA&usqp=CAU",
     name:'Neymar Jr',
     age:'26',
     nationality:'Brazil',
@@ -81,7 +81,7 @@ export const dataList =[{
 {
     id:4,
     img:"https://upload.wikimedia.org/wikipedia/commons/6/68/David_de_Gea_2017.jpg",
-    radar:"",
+    radar:"https://i1.wp.com/statsbomb.com/wp-content/uploads/2018/12/David-De-Gea-Premier-League-2017_2018.png?fit=600%2C880&ssl=1",
     name:'De Gea',
     age:'27',
     nationality:'Spain',
@@ -107,7 +107,7 @@ export const dataList =[{
 {
     id:5,
     img:"https://i2-prod.manchestereveningnews.co.uk/incoming/article20343348.ece/ALTERNATES/s1200c/0_GettyImages-1232148650.jpg",
-    radar:"",
+    radar:"https://i1.wp.com/statsbomb.com/wp-content/uploads/2019/09/Kevin-De-Bruyne-Premier-League-2019_2020.png?resize=600%2C880",
     name:'K. De Bruyne',
     age:'27',
     nationality:'Belgium',

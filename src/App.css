@@ -1,13 +1,31 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     
+}
+.middle{
+  height: 300px;
+  width: 890px;
+  /* background-color: powderblue; */
+  margin-left: 300px;
+  margin-top: -1000px;
+}
+.box-container{
+  /* position: absolute; */
+  height: 300px;
+  width: 890px;
+
+  justify-content: center;
+ margin: auto;
+  
 }
 .title{
     position: absolute;
     display: flex;
-    margin-left:100px;
-    margin-top: 40px;
+    text-align: center;
+    font-size: 70px;
+    
     
 }
 .input{
@@ -27,9 +45,7 @@
     margin-left: 100px;
     
 }
-.box-container {
-    margin: 10px 0;
-  }
+
   
   .box {
     width: 300px;
@@ -46,4 +62,23 @@
   
   .clearboth {
     clear: both;
+  }
+  .right-img{
+    position: fixed;
+    margin-left: 100px;
+    margin-top: -550px;
+    right: 0;
+    position: fixed;
+  }
+
+  .input{
+    position: absolute;
+    display: flex;
+    padding: 20px;
+    margin-top: 200px;
+
+  }
+  .box{
+    margin-left: 100px;
+    
   }

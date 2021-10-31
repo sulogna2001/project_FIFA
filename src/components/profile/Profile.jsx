@@ -1,8 +1,7 @@
 import React from 'react'
 import './Profile.css'
 import { useParams } from 'react-router'
-import messi from '../../images/messi.png'
-import messiP from '../../images/messiP.png'
+
 import { dataList } from '../../data'
 
 const  Profile=( )=>{
@@ -23,7 +22,7 @@ const  Profile=( )=>{
                          <p className='player-name'>{profile.name}</p>
                          <img src={profile.img} alt='' className='player-img'></img>
                          <div className='performance'>
-                             <img src={messiP} alt='' className='perf'></img>
+                             <img src={profile.radar} alt='' className='perf'></img>
                          </div>
                      </div>
                      <div className='line'></div>
@@ -40,33 +39,33 @@ const  Profile=( )=>{
                                  </li>
                                  <li class="item-509"><strong>Club</strong>  {profile.club}
                                  </li>
-                                 <li class="item-510">Value  {profile.value}
+                                 <li class="item-510"><strong>Value </strong> {profile.value}
                                  </li>
-                                 <li class="item-511">Wage  {profile.wage}
+                                 <li class="item-511"><strong>Wage </strong> {profile.wage}
                                  </li>
-                                 <li class="item-512">Foot  {profile.foot}
+                                 <li class="item-512"><strong>Foot </strong> {profile.foot}
                                  </li>
-                                 <li class="item-513">Workrate  {profile.workrate}
+                                 <li class="item-513"><strong>Workrate</strong>  {profile.workrate}
                                  </li>
-                                 <li class="item-514">Position  {profile.position}
+                                 <li class="item-514"><strong>Position </strong> {profile.position}
                                  </li>
-                                 <li class="item-515">Joined  {profile.joined}
+                                 <li class="item-515"><strong>Joined </strong> {profile.joined}
                                  </li>
-                                 <li class="item-516">Contact  {profile.contact}
+                                 <li class="item-516"><strong>Contact </strong> {profile.contact}
                                  </li>
-                                 <li class="item-517">Height {profile.height}
+                                 <li class="item-517"><strong>Height </strong>{profile.height}
                                  </li>
-                                 <li class="item-518">Weight  {profile.weight}
+                                 <li class="item-518"><strong>Weight </strong> {profile.weight}
                                  </li>
-                                 <li class="item-519">Crossing {profile.crossing}
+                                 <li class="item-519"><strong>Crossing</strong> {profile.crossing}
                                  </li>
-                                 <li class="item-520">Accuracy {profile.accuracy}
+                                 <li class="item-520"><strong>Accuracy </strong>{profile.accuracy}
                                  </li>
-                                 <li class="item-521">Short Passing {profile.shortPassing}
+                                 <li class="item-521"><strong>Short Passing</strong> {profile.shortPassing}
                                  </li>
-                                 <li class="item-522">Volleys {profile.volleys}
+                                 <li class="item-522"><strong>Volleys </strong>{profile.volleys}
                                  </li>
-                                 <li class="item-523">Finishing {profile.finishing}
+                                 <li class="item-523"><strong>Finishing </strong>{profile.finishing}
                                  </li>
                              </ul>
 
